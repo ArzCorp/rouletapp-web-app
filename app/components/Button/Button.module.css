@@ -1,0 +1,28 @@
+.button {
+  border: none;
+  font-size: var(--B-S-text);
+  font-weight: bold;
+  padding: 4px 15px;
+  border-radius: 7px;
+  transition: all;
+}
+
+.errorButton {
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.successButton {
+  color: var(--dark);
+  background-color: var(--green);
+}
+
+.button:disabled {
+  background-color: var(--white);
+  color: var(--dark);
+  cursor: not-allowed;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
