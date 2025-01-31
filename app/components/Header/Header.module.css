@@ -1,0 +1,17 @@
+.header {
+  padding: 5px 0px;
+  background-color: var(--dark-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header h2 {
+  font-size: var(--B-R-text);
+}

@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
+import Header from "./components/Header/Header";
 
 config.autoAddCss = false
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.variable}`}>
+        <Header />
         {children}
       </body>
     </html>
