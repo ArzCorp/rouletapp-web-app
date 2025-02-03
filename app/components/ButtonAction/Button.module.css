@@ -1,0 +1,38 @@
+.button {
+  background-color: var(--dark-ligth);
+  padding: 22px 0px;
+  min-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed var(--pink);
+  border-radius: 10px;
+  transition: all;
+}
+
+.button span {
+  color: var(--white);
+  font-size: var(--B-S-text);
+}
+
+.button:hover {
+  opacity: .9;;
+}
+
+.button:disabled {
+  border: 1px dashed var(--white);
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.button:disabled svg {
+  color: var(--white);
+}
+
+.button svg {
+  color: var(--pink);
+  margin-bottom: 5px;
+  width: 35px;
+  height: 35px;
+}
