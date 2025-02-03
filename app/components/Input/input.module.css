@@ -1,0 +1,24 @@
+.input input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  transition: all;
+}
+
+.input input::placeholder {
+  color: var(--dark);
+  font-size: var(--R-S-text);
+  font-weight: 600;
+}
+
+.input input:focus {
+  outline: none;
+  border: 1px solid var(--pink);
+}
+
+.input input:disabled {
+  background: var(--white);
+  color: var(--dark);
+  opacity: .8;
+  cursor: not-allowed;
+}
