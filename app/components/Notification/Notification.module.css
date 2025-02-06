@@ -1,0 +1,18 @@
+.notification {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  font-size: var(--B-X-text);
+  font-weight: 800;
+}
+
+.errorType {
+  background-color: var(--red);
+}
+
+.successType {
+  background-color: var(--green);
+  color: var(--dark-light)
+}
