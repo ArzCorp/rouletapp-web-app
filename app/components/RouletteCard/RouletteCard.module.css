@@ -1,0 +1,49 @@
+.rouletteCard {
+  background-color: var(--dark-light);
+  max-width: min-content;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+.rouletteCard header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid var(--pink);
+}
+
+.rouletteCard header h3 {
+  font-size: var(--B-R-text);
+  font-weight: 300;
+}
+
+.rouletteCard header button {
+  background-color: transparent;
+}
+
+.rouletteCard header button:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.rouletteCard header svg {
+  width: 15px;
+  height: 15px;
+  color: var(--pink);
+}
+
+.rouletteCard main {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 15px 10px;
+  gap: 5px;
+  overflow-x: auto;
+}
+
+.rouletteCard footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
